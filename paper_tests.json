@@ -1,0 +1,31 @@
+[
+    {
+        "metric": "Faithfulness",
+        "question": "Who directed the film Oppenheimer and who stars as J. Robert Oppenheimer in the film?",
+        "context": "Oppenheimer is a 2023 biographical thriller film written and directed by Christopher Nolan. Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film chronicles the life of J. Robert Oppenheimer, a theoretical physicist who was pivotal in developing the first nuclear weapons as part of the Manhattan Project. Cillian Murphy stars as Oppenheimer, with Emily Blunt as his wife.",
+        "high_answer": "Christopher Nolan directed the film Oppenheimer. Cillian Murphy stars as J. Robert Oppenheimer in the film.",
+        "low_answer": "James Cameron directed the film Oppenheimer. Tom Cruise stars as J. Robert Oppenheimer in the film.",
+        "ground_truth": "Christopher Nolan directed the film Oppenheimer. Cillian Murphy stars as J. Robert Oppenheimer in the film."
+    },
+    {
+        "metric": "Answer Relevancy",
+        "question": "When is the scheduled launch date and time for the PSLV-C56 mission, and where will it be launched from?",
+        "high_answer": "The PSLV-C56 mission is scheduled to be launched on Sunday, 30 July 2023 at 06:30 IST / 01:00 UTC. It will be launched from the Satish Dhawan Space Centre, Sriharikota, Andhra Pradesh, India.",
+        "low_answer": "The PSLV-C56 mission is an important space mission for India. It aims to launch a satellite into orbit to study weather patterns and help farmers predict monsoons better.",
+        "ground_truth": "The PSLV-C56 mission is scheduled to be launched on Sunday, 30 July 2023 at 06:30 IST / 01:00 UTC from the Satish Dhawan Space Centre, Sriharikota, Andhra Pradesh, India."
+    },
+    {
+        "metric": "Context Relevancy",
+        "question": "When was the Chimnabai Clock Tower completed and who was it named after?",
+        "high_context": "The Chimnabai Clock Tower, also known as the Raopura Tower, is a clock tower situated in the Raopura area of Vadodara, Gujarat, India. It was completed in 1896 and named in memory of Chimnabai I (1864-1885), a queen and the first wife of Sayajirao Gaekwad III of Baroda State.",
+        "low_context": "The Chimnabai Clock Tower, also known as the Raopura Tower, is a clock tower situated in the Raopura area of Vadodara, Gujarat, India. It was completed in 1896 and named in memory of Chimnabai I (1864-1885), a queen and the first wife of Sayajirao Gaekwad III of Baroda State. It was built in Indo-Saracenic architecture style. History. Chimnabai Clock Tower was built in 1896. The tower was named after Chimnabai I (1864-1885), a queen and the first wife of Sayajirao Gaekwad III of Baroda State. It was inaugurated by Mir Kamaluddin Hussainkhan, the last Nawab of Baroda. During the rule of Gaekwad, it was a stoppage for horse drawn trams. The clock tower was erected at the cost of 25,000 equivalent to 9.2 million or USD 120,000 in 2023.",
+        "ground_truth": "The Chimnabai Clock Tower was completed in 1896 and named in memory of Chimnabai I (1864-1885), a queen and the first wife of Sayajirao Gaekwad III of Baroda State."
+    },
+    {
+        "metric": "Answer Correctness",
+        "question": "What is the capital of Australia and in what year was it officially chosen?",
+        "high_answer": "The capital of Australia is Canberra, and it was chosen as the capital in 1908.",
+        "low_answer": "Sydney is the capital of Australia. It was established as the capital in 1788.",
+        "ground_truth": "Canberra is the capital of Australia. It was chosen as the nation's capital in 1908 as a compromise between Sydney and Melbourne."
+    }
+]
